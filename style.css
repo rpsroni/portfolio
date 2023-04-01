@@ -1,0 +1,247 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 999;
+}
+.nav img{
+	margin: 0px 140px;
+	padding: 7px;
+	cursor: pointer;
+}
+.manu{
+	float: right;
+	margin: 10px 330px;
+}
+.manu ul{
+	list-style: none;
+}
+.manu ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 8px;
+	color: #D2EF61;
+
+}
+.manu ul li a:hover{
+	color: #B51515;
+	transition: all 2s;
+	background-color: #C5CD59;
+}
+.banner{
+	width: 100%;
+	height: 100px;
+}
+.about{
+	height: auto;
+	width: 100%;
+	background-color: #1C1808;
+}
+.main img{
+	height: 550px;
+	width: 330px;
+	padding: 30px 16px;
+	margin: 30px 16px;
+}
+.about-text{
+	width: 550px;
+	color: #D9D5C6;
+	padding: 30px 26px;
+	margin: 30px 26px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.about-text h2{
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	color: #CBC2C2;
+}
+.about-text p{
+	color: #CABA7A;
+	letter-spacing: 1px;
+	line-height: 25px;
+	font-size: 18px;
+	margin-bottom: 38px;
+}
+.main button{
+	background-color: #A10B0B;
+	color: #D5C0C0;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	border-radius: 30px;
+	padding: 13px 30px;
+	transition: .4s;
+	cursor: pointer;
+}
+.main button:hover{
+	background-color: transparent;
+	border: 2px solid #A10B0B;
+	transition: all 2s;
+}
+.services{
+	background-color: #231C02;
+	width: 100%;
+	padding: 100px 0px;
+}
+.services .title h2{
+	color: #F9EDED;
+	font-size: 60px;
+	text-align: center;
+	width: 1130px;
+	margin: 30px auto;
+	text-transform: uppercase;
+}
+
+.services .box .card{
+	background: #1E1710;
+	color: #CABA7A;
+}
+.services .p-button{
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 400px;
+}
+.card {
+	height: 365px;
+	width: 335px;
+	padding: 20px 30px;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	background: #1E1710;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 40px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #A10B0B;
+	cursor: pointer;
+}
+.card h5{
+	color: #EFE8BD;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.pra p{
+	font-size: 15px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color: #A10B0B;
+	color: #D5C0C0;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	border-radius: 30px;
+	padding: 9px 22px;
+	transition: .4s;
+	cursor: pointer;
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #A10B0B;
+	transition: all 2s;
+}
+.contact-me{
+	height: 290px;
+	width: 100%;
+	background-color: #201C0B;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: #CABA7A;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contact-me .button-tow{
+	background-color: #A10B0B;
+	color: #D5C0C0;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	border-radius: 30px;
+	padding: 15px 30px;
+	transition: .4s;
+	cursor: pointer;
+}
+.contact-me .button-tow:hover{
+	background-color: transparent;
+	border: 2px solid #A10B0B;
+	transition: all 2s;
+}
+footer{
+	background-color: #1A1702;
+	height: 400px;
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	font-weight: bold;
+	color: #F4F3C8;
+	margin-bottom: 20px;
+}
+footer p:nth-child(2){
+	color: #CABA7A;
+	width: 500px;
+	font-size: 17px;
+	text-align: center;
+	line-height: 25px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #A10B0B;
+	border-radius: 500%;
+	margin: 20px 10px;
+	color: #D5C0C0;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: 2s;
+}
